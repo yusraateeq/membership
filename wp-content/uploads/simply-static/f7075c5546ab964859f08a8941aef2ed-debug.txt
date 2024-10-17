@@ -1,0 +1,425 @@
+[2024-10-17 16:31:55] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-10-17 16:31:55] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
+[2024-10-17 16:31:55] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-10-17 16:31:56] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-10-17 16:31:56] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-10-17 16:31:56] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-10-17 16:31:56] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\membership\membership/wp-content/uploads\simply-static\temp-files/simply-static-1-1729182715\
+[2024-10-17 16:31:56] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/membership/membership/
+[2024-10-17 16:31:56] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-10-17 16:31:56] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-17 16:31:56] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-17 16:31:56] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2024-10-17 16:31:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/membership/membership/
+[2024-10-17 16:31:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2024-10-17 16:31:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 16:31:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/67113bfce3847-zDyqC3.tmp
+[2024-10-17 16:31:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/membership/membership/?simply_static_page=1
+[2024-10-17 16:31:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/membership/membership/?simply_static_page=1
+[2024-10-17 16:31:58] [class-ss-url-fetcher.php:103] Filesize: 103635 bytes
+[2024-10-17 16:31:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-17 16:31:58] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-10-17 16:31:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/67113bfce3847-zDyqC3.tmp to C:\xampp\htdocs\membership\membership/wp-content/uploads\simply-static\temp-files/simply-static-1-1729182715/index.html
+[2024-10-17 16:31:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 16:32:00] [class-ss-fetch-urls-task.php:159] Adding 12 URLs to the queue
+[2024-10-17 16:32:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 16:32:00] [class-ss-page.php:119] Checking Content Identical:738216522366ec80e7fade0eb4916a44b6ee6cd8===. Value: FALSE
+[2024-10-17 16:32:00] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2024-10-17 16:32:00] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-17 16:32:00] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-17 16:32:00] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-17 16:32:00] [class-ss-fetch-urls-task.php:69] Total pages: 12; Pages remaining: 11
+[2024-10-17 16:32:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/membership/membership/index.php/sample-page/
+[2024-10-17 16:32:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 12
+[2024-10-17 16:32:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 16:32:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/67113c00f30c1-UGDgsp.tmp
+[2024-10-17 16:32:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/membership/membership/index.php/sample-page/?simply_static_page=2
+[2024-10-17 16:32:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/membership/membership/index.php/sample-page/?simply_static_page=2
+[2024-10-17 16:32:02] [class-ss-url-fetcher.php:103] Filesize: 97275 bytes
+[2024-10-17 16:32:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-17 16:32:02] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/sample-page/index.html
+[2024-10-17 16:32:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/67113c00f30c1-UGDgsp.tmp to C:\xampp\htdocs\membership\membership/wp-content/uploads\simply-static\temp-files/simply-static-1-1729182715/index.php/sample-page/index.html
+[2024-10-17 16:32:02] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 16:32:03] [class-ss-fetch-urls-task.php:159] Adding 13 URLs to the queue
+[2024-10-17 16:32:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 16:32:04] [class-ss-page.php:119] Checking Content Identical:6e3fb4c3189ad9d3fceabfdbdaa2459831da0308===. Value: FALSE
+[2024-10-17 16:32:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/membership/membership/index.php/category/uncategorized/
+[2024-10-17 16:32:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 12
+[2024-10-17 16:32:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 16:32:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/67113c041ce39-7DCQw9.tmp
+[2024-10-17 16:32:04] [class-ss-page-handler.php:38] URL Prepared:http://localhost/membership/membership/index.php/category/uncategorized/?simply_static_page=3
+[2024-10-17 16:32:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/membership/membership/index.php/category/uncategorized/?simply_static_page=3
+[2024-10-17 16:32:05] [class-ss-url-fetcher.php:103] Filesize: 104176 bytes
+[2024-10-17 16:32:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-17 16:32:05] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/category/uncategorized/index.html
+[2024-10-17 16:32:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/67113c041ce39-7DCQw9.tmp to C:\xampp\htdocs\membership\membership/wp-content/uploads\simply-static\temp-files/simply-static-1-1729182715/index.php/category/uncategorized/index.html
+[2024-10-17 16:32:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 16:32:06] [class-ss-fetch-urls-task.php:159] Adding 14 URLs to the queue
+[2024-10-17 16:32:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 16:32:07] [class-ss-page.php:119] Checking Content Identical:3f94a41e2cfa26b99ef29a972933dd425fb86e4f===. Value: FALSE
+[2024-10-17 16:32:07] [class-ss-fetch-urls-task.php:72] URL: http://localhost/membership/membership/index.php/2024/10/17/hello-world/
+[2024-10-17 16:32:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 12
+[2024-10-17 16:32:07] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 16:32:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/67113c075ca3d-ygyaoc.tmp
+[2024-10-17 16:32:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/membership/membership/index.php/2024/10/17/hello-world/?simply_static_page=4
+[2024-10-17 16:32:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/membership/membership/index.php/2024/10/17/hello-world/?simply_static_page=4
+[2024-10-17 16:32:08] [class-ss-url-fetcher.php:103] Filesize: 111170 bytes
+[2024-10-17 16:32:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-17 16:32:08] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/2024/10/17/hello-world/index.html
+[2024-10-17 16:32:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/67113c075ca3d-ygyaoc.tmp to C:\xampp\htdocs\membership\membership/wp-content/uploads\simply-static\temp-files/simply-static-1-1729182715/index.php/2024/10/17/hello-world/index.html
+[2024-10-17 16:32:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 16:32:09] [class-ss-fetch-urls-task.php:159] Adding 15 URLs to the queue
+[2024-10-17 16:32:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 16:32:09] [class-ss-page.php:119] Checking Content Identical:a0c9357357a26e88daa230c68af0e8a2843335be===. Value: FALSE
+[2024-10-17 16:32:09] [class-ss-fetch-urls-task.php:72] URL: http://localhost/membership/membership/index.php/author/admin/
+[2024-10-17 16:32:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 12
+[2024-10-17 16:32:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 16:32:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/67113c09ac164-rXm4gV.tmp
+[2024-10-17 16:32:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/membership/membership/index.php/author/admin/?simply_static_page=5
+[2024-10-17 16:32:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/membership/membership/index.php/author/admin/?simply_static_page=5
+[2024-10-17 16:32:10] [class-ss-url-fetcher.php:103] Filesize: 104928 bytes
+[2024-10-17 16:32:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-17 16:32:10] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/author/admin/index.html
+[2024-10-17 16:32:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/67113c09ac164-rXm4gV.tmp to C:\xampp\htdocs\membership\membership/wp-content/uploads\simply-static\temp-files/simply-static-1-1729182715/index.php/author/admin/index.html
+[2024-10-17 16:32:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 16:32:11] [class-ss-fetch-urls-task.php:159] Adding 14 URLs to the queue
+[2024-10-17 16:32:12] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 16:32:12] [class-ss-page.php:119] Checking Content Identical:5b1404c6f166723487157ad95f893bb57557ae87===. Value: FALSE
+[2024-10-17 16:32:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/membership/membership/wp-content/themes/astra/assets/js/minified/frontend.min.js
+[2024-10-17 16:32:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 12
+[2024-10-17 16:32:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 16:32:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/67113c0c83cb1-5oSHT5.tmp
+[2024-10-17 16:32:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/membership/membership/wp-content/themes/astra/assets/js/minified/frontend.min.js?simply_static_page=6
+[2024-10-17 16:32:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/membership/membership/wp-content/themes/astra/assets/js/minified/frontend.min.js?simply_static_page=6
+[2024-10-17 16:32:12] [class-ss-url-fetcher.php:103] Filesize: 23659 bytes
+[2024-10-17 16:32:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-17 16:32:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/astra/assets/js/minified/frontend.min.js
+[2024-10-17 16:32:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/67113c0c83cb1-5oSHT5.tmp to C:\xampp\htdocs\membership\membership/wp-content/uploads\simply-static\temp-files/simply-static-1-1729182715/wp-content/themes/astra/assets/js/minified/frontend.min.js
+[2024-10-17 16:32:12] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 16:32:12] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 16:32:12] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 16:32:12] [class-ss-page.php:119] Checking Content Identical:3576353c10ec109664743f318dc8a33b49667781===. Value: FALSE
+[2024-10-17 16:32:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/membership/membership/index.php/feed/
+[2024-10-17 16:32:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 12
+[2024-10-17 16:32:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 16:32:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/67113c0c9a03c-PZVNmI.tmp
+[2024-10-17 16:32:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/membership/membership/index.php/feed/?simply_static_page=7
+[2024-10-17 16:32:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/membership/membership/index.php/feed/?simply_static_page=7
+[2024-10-17 16:32:13] [class-ss-url-fetcher.php:103] Filesize: 1811 bytes
+[2024-10-17 16:32:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-17 16:32:13] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/feed/index.xml
+[2024-10-17 16:32:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/67113c0c9a03c-PZVNmI.tmp to C:\xampp\htdocs\membership\membership/wp-content/uploads\simply-static\temp-files/simply-static-1-1729182715/index.php/feed/index.xml
+[2024-10-17 16:32:13] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 16:32:13] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-10-17 16:32:13] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 16:32:13] [class-ss-page.php:119] Checking Content Identical:0d496976587e9d614896fdd77022f6cec7c45108===. Value: FALSE
+[2024-10-17 16:32:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/membership/membership/index.php/comments/feed/
+[2024-10-17 16:32:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 12
+[2024-10-17 16:32:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 16:32:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/67113c0dd93ac-CkO2xV.tmp
+[2024-10-17 16:32:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/membership/membership/index.php/comments/feed/?simply_static_page=8
+[2024-10-17 16:32:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/membership/membership/index.php/comments/feed/?simply_static_page=8
+[2024-10-17 16:32:14] [class-ss-url-fetcher.php:103] Filesize: 1742 bytes
+[2024-10-17 16:32:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-17 16:32:14] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/comments/feed/index.xml
+[2024-10-17 16:32:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/67113c0dd93ac-CkO2xV.tmp to C:\xampp\htdocs\membership\membership/wp-content/uploads\simply-static\temp-files/simply-static-1-1729182715/index.php/comments/feed/index.xml
+[2024-10-17 16:32:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 16:32:14] [class-ss-fetch-urls-task.php:159] Adding 4 URLs to the queue
+[2024-10-17 16:32:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 16:32:14] [class-ss-page.php:119] Checking Content Identical:251cc17292e71aae7caa137de226abd30bf054b9===. Value: FALSE
+[2024-10-17 16:32:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/membership/membership/wp-content/themes/astra/assets/css/minified/main.min.css
+[2024-10-17 16:32:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 12
+[2024-10-17 16:32:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 16:32:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/67113c0ef0fc3-08Ysim.tmp
+[2024-10-17 16:32:14] [class-ss-page-handler.php:38] URL Prepared:http://localhost/membership/membership/wp-content/themes/astra/assets/css/minified/main.min.css?simply_static_page=9
+[2024-10-17 16:32:14] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/membership/membership/wp-content/themes/astra/assets/css/minified/main.min.css?simply_static_page=9
+[2024-10-17 16:32:14] [class-ss-url-fetcher.php:103] Filesize: 43154 bytes
+[2024-10-17 16:32:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-17 16:32:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/astra/assets/css/minified/main.min.css
+[2024-10-17 16:32:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/67113c0ef0fc3-08Ysim.tmp to C:\xampp\htdocs\membership\membership/wp-content/uploads\simply-static\temp-files/simply-static-1-1729182715/wp-content/themes/astra/assets/css/minified/main.min.css
+[2024-10-17 16:32:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 16:32:15] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 16:32:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 16:32:15] [class-ss-page.php:119] Checking Content Identical:486538a3d1eba64427d3d73811a11ca2e094991e===. Value: FALSE
+[2024-10-17 16:32:15] [class-ss-fetch-urls-task.php:72] URL: http://localhost/membership/membership/wp-includes/css/dist/block-library/style.min.css
+[2024-10-17 16:32:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 12
+[2024-10-17 16:32:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 16:32:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/67113c0f17c21-JpVsp3.tmp
+[2024-10-17 16:32:15] [class-ss-page-handler.php:38] URL Prepared:http://localhost/membership/membership/wp-includes/css/dist/block-library/style.min.css?simply_static_page=10
+[2024-10-17 16:32:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/membership/membership/wp-includes/css/dist/block-library/style.min.css?simply_static_page=10
+[2024-10-17 16:32:15] [class-ss-url-fetcher.php:103] Filesize: 110035 bytes
+[2024-10-17 16:32:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-17 16:32:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2024-10-17 16:32:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/67113c0f17c21-JpVsp3.tmp to C:\xampp\htdocs\membership\membership/wp-content/uploads\simply-static\temp-files/simply-static-1-1729182715/wp-includes/css/dist/block-library/style.min.css
+[2024-10-17 16:32:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 16:32:15] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 16:32:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 16:32:15] [class-ss-page.php:119] Checking Content Identical:5595a586cbd42b31377681b9d35293278d75d336===. Value: FALSE
+[2024-10-17 16:32:15] [class-ss-fetch-urls-task.php:72] URL: http://localhost/membership/membership/index.php/wp-json/
+[2024-10-17 16:32:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 12
+[2024-10-17 16:32:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 16:32:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/67113c0f36a45-tu2tds.tmp
+[2024-10-17 16:32:15] [class-ss-page-handler.php:38] URL Prepared:http://localhost/membership/membership/index.php/wp-json/?simply_static_page=11
+[2024-10-17 16:32:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/membership/membership/index.php/wp-json/?simply_static_page=11
+[2024-10-17 16:32:16] [class-ss-url-fetcher.php:103] Filesize: 277099 bytes
+[2024-10-17 16:32:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-10-17 16:32:16] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/wp-json/index.html
+[2024-10-17 16:32:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/67113c0f36a45-tu2tds.tmp to C:\xampp\htdocs\membership\membership/wp-content/uploads\simply-static\temp-files/simply-static-1-1729182715/index.php/wp-json/index.html
+[2024-10-17 16:32:16] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 16:32:16] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 16:32:16] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 16:32:16] [class-ss-page.php:119] Checking Content Identical:4f7a1ea8708c79bde22a65549941defd19975c42===. Value: FALSE
+[2024-10-17 16:32:16] [class-ss-fetch-urls-task.php:72] URL: http://localhost/membership/membership/xmlrpc.php
+[2024-10-17 16:32:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 12
+[2024-10-17 16:32:16] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/membership/membership/xmlrpc.php
+[2024-10-17 16:32:16] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-17 16:32:16] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 12 pages/files
+[2024-10-17 16:32:16] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-17 16:32:17] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-17 16:32:17] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-17 16:32:17] [class-ss-fetch-urls-task.php:69] Total pages: 24; Pages remaining: 12
+[2024-10-17 16:32:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/membership/membership/wp-admin/
+[2024-10-17 16:32:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 24
+[2024-10-17 16:32:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 16:32:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/67113c11736ed-Xz7lSs.tmp
+[2024-10-17 16:32:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/membership/membership/wp-admin/?simply_static_page=13
+[2024-10-17 16:32:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/membership/membership/wp-admin/?simply_static_page=13
+[2024-10-17 16:32:18] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-10-17 16:32:18] [class-ss-url-fetcher.php:119] http_status_code: 302 | content_type: text/html; charset=UTF-8
+[2024-10-17 16:32:18] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-10-17 16:32:18] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/membership/membership/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fmembership%2Fmembership%2Fwp-admin%2F%3Fsimply_static_page%3D13&reauth=1
+[2024-10-17 16:32:18] [class-ss-fetch-urls-task.php:231] Redirect URL is on the same domain; adding the URL to the queue
+[2024-10-17 16:32:18] [class-ss-fetch-urls-task.php:243] Creating a redirect page
+[2024-10-17 16:32:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-admin/index.html
+[2024-10-17 16:32:18] [class-ss-page.php:119] Checking Content Identical:d5b2f7d5a5511283debf299afe15dc4b08193a4f===. Value: FALSE
+[2024-10-17 16:32:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/membership/membership/index.php/sample-page/feed/
+[2024-10-17 16:32:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 24
+[2024-10-17 16:32:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 16:32:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/67113c12955c2-uJBBoF.tmp
+[2024-10-17 16:32:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/membership/membership/index.php/sample-page/feed/?simply_static_page=14
+[2024-10-17 16:32:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/membership/membership/index.php/sample-page/feed/?simply_static_page=14
+[2024-10-17 16:32:19] [class-ss-url-fetcher.php:103] Filesize: 779 bytes
+[2024-10-17 16:32:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-17 16:32:19] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/sample-page/feed/index.xml
+[2024-10-17 16:32:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/67113c12955c2-uJBBoF.tmp to C:\xampp\htdocs\membership\membership/wp-content/uploads\simply-static\temp-files/simply-static-1-1729182715/index.php/sample-page/feed/index.xml
+[2024-10-17 16:32:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 16:32:19] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-10-17 16:32:19] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 16:32:19] [class-ss-page.php:119] Checking Content Identical:cf91b80d0b7280833b48ab8289d1370ea29b3bdd===. Value: FALSE
+[2024-10-17 16:32:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/membership/membership/index.php/wp-json/wp/v2/pages/2
+[2024-10-17 16:32:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 24
+[2024-10-17 16:32:19] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 16:32:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/67113c139291c-WlJraE.tmp
+[2024-10-17 16:32:19] [class-ss-page-handler.php:38] URL Prepared:http://localhost/membership/membership/index.php/wp-json/wp/v2/pages/2?simply_static_page=15
+[2024-10-17 16:32:19] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/membership/membership/index.php/wp-json/wp/v2/pages/2?simply_static_page=15
+[2024-10-17 16:32:20] [class-ss-url-fetcher.php:103] Filesize: 5430 bytes
+[2024-10-17 16:32:20] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-10-17 16:32:20] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/wp-json/wp/v2/pages/2\index.html
+[2024-10-17 16:32:20] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/67113c139291c-WlJraE.tmp to C:\xampp\htdocs\membership\membership/wp-content/uploads\simply-static\temp-files/simply-static-1-1729182715/index.php/wp-json/wp/v2/pages/2\index.html
+[2024-10-17 16:32:20] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 16:32:20] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 16:32:20] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 16:32:20] [class-ss-page.php:119] Checking Content Identical:4f8623648920cefa64d58f76a12c21e3eb458df8===. Value: FALSE
+[2024-10-17 16:32:20] [class-ss-fetch-urls-task.php:72] URL: http://localhost/membership/membership/index.php/wp-json/oembed/1.0/embed
+[2024-10-17 16:32:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 24
+[2024-10-17 16:32:20] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 16:32:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/67113c14a7ee8-9OwHFn.tmp
+[2024-10-17 16:32:20] [class-ss-page-handler.php:38] URL Prepared:http://localhost/membership/membership/index.php/wp-json/oembed/1.0/embed?simply_static_page=16
+[2024-10-17 16:32:20] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/membership/membership/index.php/wp-json/oembed/1.0/embed?simply_static_page=16
+[2024-10-17 16:32:22] [class-ss-url-fetcher.php:103] Filesize: 115 bytes
+[2024-10-17 16:32:22] [class-ss-url-fetcher.php:119] http_status_code: 400 | content_type: application/json; charset=UTF-8
+[2024-10-17 16:32:22] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-10-17 16:32:22] [class-ss-fetch-urls-task.php:72] URL: http://localhost/membership/membership/index.php/category/uncategorized/feed/
+[2024-10-17 16:32:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 24
+[2024-10-17 16:32:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 16:32:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/67113c165bbf7-1EfdhB.tmp
+[2024-10-17 16:32:22] [class-ss-page-handler.php:38] URL Prepared:http://localhost/membership/membership/index.php/category/uncategorized/feed/?simply_static_page=17
+[2024-10-17 16:32:22] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/membership/membership/index.php/category/uncategorized/feed/?simply_static_page=17
+[2024-10-17 16:32:23] [class-ss-url-fetcher.php:103] Filesize: 1857 bytes
+[2024-10-17 16:32:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-17 16:32:23] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/category/uncategorized/feed/index.xml
+[2024-10-17 16:32:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/67113c165bbf7-1EfdhB.tmp to C:\xampp\htdocs\membership\membership/wp-content/uploads\simply-static\temp-files/simply-static-1-1729182715/index.php/category/uncategorized/feed/index.xml
+[2024-10-17 16:32:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 16:32:23] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-10-17 16:32:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 16:32:23] [class-ss-page.php:119] Checking Content Identical:fd8521052813b96e308f0c0b1c5661c349ac5a56===. Value: FALSE
+[2024-10-17 16:32:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/membership/membership/index.php/wp-json/wp/v2/categories/1
+[2024-10-17 16:32:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 24
+[2024-10-17 16:32:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 16:32:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/67113c179d713-OzZEY2.tmp
+[2024-10-17 16:32:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/membership/membership/index.php/wp-json/wp/v2/categories/1?simply_static_page=18
+[2024-10-17 16:32:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/membership/membership/index.php/wp-json/wp/v2/categories/1?simply_static_page=18
+[2024-10-17 16:32:24] [class-ss-url-fetcher.php:103] Filesize: 751 bytes
+[2024-10-17 16:32:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-10-17 16:32:24] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/wp-json/wp/v2/categories/1\index.html
+[2024-10-17 16:32:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/67113c179d713-OzZEY2.tmp to C:\xampp\htdocs\membership\membership/wp-content/uploads\simply-static\temp-files/simply-static-1-1729182715/index.php/wp-json/wp/v2/categories/1\index.html
+[2024-10-17 16:32:24] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 16:32:24] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 16:32:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 16:32:24] [class-ss-page.php:119] Checking Content Identical:59c76c3102c1d50dd78de6a80f1be85006c6d00d===. Value: FALSE
+[2024-10-17 16:32:24] [class-ss-fetch-urls-task.php:72] URL: http://localhost/membership/membership/wp-includes/js/comment-reply.min.js
+[2024-10-17 16:32:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 24
+[2024-10-17 16:32:24] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 16:32:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/67113c18ad354-j6cCUA.tmp
+[2024-10-17 16:32:24] [class-ss-page-handler.php:38] URL Prepared:http://localhost/membership/membership/wp-includes/js/comment-reply.min.js?simply_static_page=19
+[2024-10-17 16:32:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/membership/membership/wp-includes/js/comment-reply.min.js?simply_static_page=19
+[2024-10-17 16:32:24] [class-ss-url-fetcher.php:103] Filesize: 2981 bytes
+[2024-10-17 16:32:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-17 16:32:24] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2024-10-17 16:32:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/67113c18ad354-j6cCUA.tmp to C:\xampp\htdocs\membership\membership/wp-content/uploads\simply-static\temp-files/simply-static-1-1729182715/wp-includes/js/comment-reply.min.js
+[2024-10-17 16:32:24] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 16:32:24] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 16:32:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 16:32:24] [class-ss-page.php:119] Checking Content Identical:db36a77f6aaa2063bfbec02c2c0e967438c5a245===. Value: FALSE
+[2024-10-17 16:32:24] [class-ss-fetch-urls-task.php:72] URL: http://localhost/membership/membership/index.php/2024/10/17/hello-world/feed/
+[2024-10-17 16:32:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 24
+[2024-10-17 16:32:24] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 16:32:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/67113c18d8574-S2ubi3.tmp
+[2024-10-17 16:32:24] [class-ss-page-handler.php:38] URL Prepared:http://localhost/membership/membership/index.php/2024/10/17/hello-world/feed/?simply_static_page=20
+[2024-10-17 16:32:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/membership/membership/index.php/2024/10/17/hello-world/feed/?simply_static_page=20
+[2024-10-17 16:32:25] [class-ss-url-fetcher.php:103] Filesize: 1765 bytes
+[2024-10-17 16:32:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-17 16:32:25] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/2024/10/17/hello-world/feed/index.xml
+[2024-10-17 16:32:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/67113c18d8574-S2ubi3.tmp to C:\xampp\htdocs\membership\membership/wp-content/uploads\simply-static\temp-files/simply-static-1-1729182715/index.php/2024/10/17/hello-world/feed/index.xml
+[2024-10-17 16:32:25] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 16:32:25] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
+[2024-10-17 16:32:25] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 16:32:25] [class-ss-page.php:119] Checking Content Identical:e9969cd67c908a22bd982b4d730826fbd3f1d01a===. Value: FALSE
+[2024-10-17 16:32:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/membership/membership/index.php/wp-json/wp/v2/posts/1
+[2024-10-17 16:32:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 24
+[2024-10-17 16:32:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 16:32:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/67113c1a00edc-8YLGNh.tmp
+[2024-10-17 16:32:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/membership/membership/index.php/wp-json/wp/v2/posts/1?simply_static_page=21
+[2024-10-17 16:32:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/membership/membership/index.php/wp-json/wp/v2/posts/1?simply_static_page=21
+[2024-10-17 16:32:27] [class-ss-url-fetcher.php:103] Filesize: 4701 bytes
+[2024-10-17 16:32:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-10-17 16:32:27] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/wp-json/wp/v2/posts/1\index.html
+[2024-10-17 16:32:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/67113c1a00edc-8YLGNh.tmp to C:\xampp\htdocs\membership\membership/wp-content/uploads\simply-static\temp-files/simply-static-1-1729182715/index.php/wp-json/wp/v2/posts/1\index.html
+[2024-10-17 16:32:27] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 16:32:27] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 16:32:27] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 16:32:27] [class-ss-page.php:119] Checking Content Identical:c068b3a7fe8d7339fc45f3bae8e8aa50d81cf8ec===. Value: FALSE
+[2024-10-17 16:32:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/membership/membership/index.php/author/admin/feed/
+[2024-10-17 16:32:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 24
+[2024-10-17 16:32:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 16:32:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/67113c1b73b1b-L3hjkW.tmp
+[2024-10-17 16:32:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/membership/membership/index.php/author/admin/feed/?simply_static_page=22
+[2024-10-17 16:32:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/membership/membership/index.php/author/admin/feed/?simply_static_page=22
+[2024-10-17 16:32:28] [class-ss-url-fetcher.php:103] Filesize: 1839 bytes
+[2024-10-17 16:32:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-17 16:32:28] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/author/admin/feed/index.xml
+[2024-10-17 16:32:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/67113c1b73b1b-L3hjkW.tmp to C:\xampp\htdocs\membership\membership/wp-content/uploads\simply-static\temp-files/simply-static-1-1729182715/index.php/author/admin/feed/index.xml
+[2024-10-17 16:32:28] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 16:32:28] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-10-17 16:32:28] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 16:32:28] [class-ss-page.php:119] Checking Content Identical:60b828082487ffc9bfa3284a76e6fb343984a35a===. Value: FALSE
+[2024-10-17 16:32:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/membership/membership/index.php/wp-json/wp/v2/users/1
+[2024-10-17 16:32:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 24
+[2024-10-17 16:32:28] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 16:32:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/67113c1c925af-SX9B4O.tmp
+[2024-10-17 16:32:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/membership/membership/index.php/wp-json/wp/v2/users/1?simply_static_page=23
+[2024-10-17 16:32:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/membership/membership/index.php/wp-json/wp/v2/users/1?simply_static_page=23
+[2024-10-17 16:32:29] [class-ss-url-fetcher.php:103] Filesize: 689 bytes
+[2024-10-17 16:32:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-10-17 16:32:29] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/wp-json/wp/v2/users/1\index.html
+[2024-10-17 16:32:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/67113c1c925af-SX9B4O.tmp to C:\xampp\htdocs\membership\membership/wp-content/uploads\simply-static\temp-files/simply-static-1-1729182715/index.php/wp-json/wp/v2/users/1\index.html
+[2024-10-17 16:32:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 16:32:29] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 16:32:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 16:32:29] [class-ss-page.php:119] Checking Content Identical:094ecb2c59d370193f8932480e8695da21768f7c===. Value: FALSE
+[2024-10-17 16:32:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/membership/membership
+[2024-10-17 16:32:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 24
+[2024-10-17 16:32:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 16:32:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/67113c1dafb94-XpNkKU.tmp
+[2024-10-17 16:32:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/membership/membership?simply_static_page=24
+[2024-10-17 16:32:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/membership/membership?simply_static_page=24
+[2024-10-17 16:32:29] [class-ss-url-fetcher.php:103] Filesize: 368 bytes
+[2024-10-17 16:32:29] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-10-17 16:32:29] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-10-17 16:32:29] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/membership/membership/
+[2024-10-17 16:32:29] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-10-17 16:32:29] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 12 of 24 pages/files
+[2024-10-17 16:32:29] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-17 16:32:29] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-17 16:32:29] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-17 16:32:29] [class-ss-fetch-urls-task.php:69] Total pages: 25; Pages remaining: 1
+[2024-10-17 16:32:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/membership/membership/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fmembership%2Fmembership%2Fwp-admin%2F%3Fsimply_static_page%3D13&reauth=1
+[2024-10-17 16:32:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 25
+[2024-10-17 16:32:29] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/membership/membership/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fmembership%2Fmembership%2Fwp-admin%2F%3Fsimply_static_page%3D13&reauth=1
+[2024-10-17 16:32:29] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-17 16:32:29] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 24 of 25 pages/files
+[2024-10-17 16:32:29] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-17 16:32:29] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-17 16:32:29] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-17 16:32:29] [class-ss-fetch-urls-task.php:69] Total pages: 25; Pages remaining: 0
+[2024-10-17 16:32:29] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 25 of 25 pages/files
+[2024-10-17 16:32:29] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-10-17 16:32:29] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-10-17 16:32:29] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-10-17 16:32:29] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-10-17 16:32:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/67113c1de3be3-f3sKYa.tmp
+[2024-10-17 16:32:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/membership/membership/1729182750?simply_static_page=0
+[2024-10-17 16:32:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/membership/membership/1729182750?simply_static_page=0
+[2024-10-17 16:32:30] [class-ss-url-fetcher.php:103] Filesize: 101831 bytes
+[2024-10-17 16:32:30] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-10-17 16:32:30] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-10-17 16:32:30] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/67113c1de3be3-f3sKYa.tmp to C:\xampp\htdocs\membership\membership/wp-content/uploads\simply-static\temp-files/simply-static-1-1729182715\404/index.html
+[2024-10-17 16:32:30] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-10-17 16:32:32] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-10-17 16:32:32] [class-ss-page.php:119] Checking Content Identical:7214ef9baca5a1453dbd5090aba49cae0ef29957===. Value: FALSE
+[2024-10-17 16:32:32] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-10-17 16:32:32] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
+[2024-10-17 16:32:32] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
+[2024-10-17 16:32:32] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
+[2024-10-17 16:32:32] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 21 of 21 files
+[2024-10-17 16:32:32] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/membership/membership/
+[2024-10-17 16:32:32] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/membership/membership/index.php/sample-page
+[2024-10-17 16:32:32] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/membership/membership/index.php/sample-page
+[2024-10-17 16:32:32] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/membership/membership/index.php/category/uncategorized
+[2024-10-17 16:32:32] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/membership/membership/index.php/category/uncategorized
+[2024-10-17 16:32:32] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/membership/membership/index.php/2024/10/17/hello-world
+[2024-10-17 16:32:32] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/membership/membership/index.php/2024/10/17/hello-world
+[2024-10-17 16:32:32] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/membership/membership/index.php/author/admin
+[2024-10-17 16:32:32] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/membership/membership/index.php/author/admin
+[2024-10-17 16:32:32] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/membership/membership/wp-content/themes/astra/assets/js/minified
+[2024-10-17 16:32:32] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/membership/membership/index.php/feed
+[2024-10-17 16:32:32] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/membership/membership/index.php/feed
+[2024-10-17 16:32:32] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/membership/membership/index.php/comments/feed
+[2024-10-17 16:32:32] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/membership/membership/index.php/comments/feed
+[2024-10-17 16:32:32] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/membership/membership/wp-content/themes/astra/assets/css/minified
+[2024-10-17 16:32:32] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/membership/membership/wp-includes/css/dist/block-library
+[2024-10-17 16:32:32] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/membership/membership/index.php/wp-json
+[2024-10-17 16:32:32] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/membership/membership/index.php/wp-json
+[2024-10-17 16:32:32] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/membership/membership/wp-admin
+[2024-10-17 16:32:32] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/membership/membership/index.php/sample-page/feed
+[2024-10-17 16:32:32] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/membership/membership/index.php/sample-page/feed
+[2024-10-17 16:32:32] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/membership/membership/index.php/wp-json/wp/v2/pages
+[2024-10-17 16:32:32] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/membership/membership/index.php/wp-json/wp/v2/pages
+[2024-10-17 16:32:32] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/membership/membership/index.php/category/uncategorized/feed
+[2024-10-17 16:32:32] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/membership/membership/index.php/category/uncategorized/feed
+[2024-10-17 16:32:32] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/membership/membership/index.php/wp-json/wp/v2/categories
+[2024-10-17 16:32:32] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/membership/membership/index.php/wp-json/wp/v2/categories
+[2024-10-17 16:32:32] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/membership/membership/wp-includes/js
+[2024-10-17 16:32:32] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/membership/membership/index.php/2024/10/17/hello-world/feed
+[2024-10-17 16:32:32] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/membership/membership/index.php/2024/10/17/hello-world/feed
+[2024-10-17 16:32:32] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/membership/membership/index.php/wp-json/wp/v2/posts
+[2024-10-17 16:32:32] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/membership/membership/index.php/wp-json/wp/v2/posts
+[2024-10-17 16:32:33] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/membership/membership/index.php/author/admin/feed
+[2024-10-17 16:32:33] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/membership/membership/index.php/author/admin/feed
+[2024-10-17 16:32:33] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/membership/membership/index.php/wp-json/wp/v2/users
+[2024-10-17 16:32:33] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/membership/membership/index.php/wp-json/wp/v2/users
+[2024-10-17 16:32:33] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:21. Processed Pages: 21
+[2024-10-17 16:32:33] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 21 of 21 files
+[2024-10-17 16:32:33] [trait-can-process-pages.php:110] Total pages: 21; Pages remaining: 0
+[2024-10-17 16:32:33] [class-ss-transfer-files-locally-task.php:238] Transferring 404 Page
+[2024-10-17 16:32:33] [class-ss-transfer-files-locally-task.php:257] Destination 404 Page found at C:/xampp/htdocs/membership/membership\404\index.html
+[2024-10-17 16:32:33] [class-ss-transfer-files-locally-task.php:261] Success
+[2024-10-17 16:32:33] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://yusraateeq.github.io/membership/" target="_blank">https://yusraateeq.github.io/membership/</a>
+[2024-10-17 16:32:33] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-10-17 16:32:33] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-10-17 16:32:33] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-10-17 16:32:33] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-10-17 16:32:33] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-10-17 16:32:33] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-10-17 16:32:33] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-10-17 16:32:33] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:38
