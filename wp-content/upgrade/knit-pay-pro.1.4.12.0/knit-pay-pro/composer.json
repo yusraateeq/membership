@@ -1,0 +1,44 @@
+{
+	"repositories" : [{
+			"type" : "git",
+			"url" : "https://github.com/edu27/omnipay-redsys"
+		}
+	],
+	"require" : {
+		"automattic/jetpack-autoloader" : "^3.0",
+		"dilab/omnipay-midtrans" : "^2.0",
+		"edu27/omnipay-redsys" : "dev-master",
+		"gauravjain028/omnipay-ameria" : "^1.0",
+		"lennon-mudenda/omnipay-dpo" : "^1.0",
+		"omnipay/eway" : "^3.0",
+		"omnipay/payfast" : "*",
+		"patronbase/omnipay-cybersource-hosted" : "^3.0",
+		"paystackhq/omnipay-paystack" : "^1.0",
+		"sitehandy/omnipay-toyyibpay" : "dev-master"
+	},
+	"replace" : {
+		"omnipay/common" : "*",
+		"league/omnipay" : "*",
+		"guzzlehttp/guzzle" : "*",
+		"php-http/guzzle6-adapter" : "*",
+		"nyholm/psr7" : "*",
+		"php-http/httplug" : "*",
+		"symfony/http-client" : "*",
+		"vlucas/phpdotenv" : "*",
+		"php-http/guzzle7-adapter" : "*"
+	},
+	"config" : {
+		"platform-check" : false,
+		"sort-packages" : true,
+		"allow-plugins" : {
+			"automattic/jetpack-autoloader" : true
+		},
+		"platform" : {
+			"php" : "8.0"
+		},
+		"optimize-autoloader" : true
+	},
+	"scripts" : {
+		"composer-update" : "composer update --ignore-platform-req=php"
+	}
+}

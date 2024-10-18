@@ -1,0 +1,675 @@
+{
+    "packages": [
+        {
+            "name": "automattic/jetpack-autoloader",
+            "version": "v3.1.0",
+            "version_normalized": "3.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Automattic/jetpack-autoloader.git",
+                "reference": "0e36d60ad64e35b5dab7fa4757fadb2235d58f73"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Automattic/jetpack-autoloader/zipball/0e36d60ad64e35b5dab7fa4757fadb2235d58f73",
+                "reference": "0e36d60ad64e35b5dab7fa4757fadb2235d58f73",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.1 || ^2.0",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "automattic/jetpack-changelogger": "^4.2.6",
+                "composer/composer": "^1.1 || ^2.0",
+                "yoast/phpunit-polyfills": "^1.1.1"
+            },
+            "time": "2024-09-06T15:32:10+00:00",
+            "type": "composer-plugin",
+            "extra": {
+                "autotagger": true,
+                "class": "Automattic\\Jetpack\\Autoloader\\CustomAutoloaderPlugin",
+                "mirror-repo": "Automattic/jetpack-autoloader",
+                "changelogger": {
+                    "link-template": "https://github.com/Automattic/jetpack-autoloader/compare/v${old}...v${new}"
+                },
+                "version-constants": {
+                    "::VERSION": "src/AutoloadGenerator.php"
+                },
+                "branch-alias": {
+                    "dev-trunk": "3.1.x-dev"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Automattic\\Jetpack\\Autoloader\\": "src"
+                },
+                "classmap": [
+                    "src/AutoloadGenerator.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Creates a custom autoloader for a plugin or theme.",
+            "keywords": [
+                "autoload",
+                "autoloader",
+                "composer",
+                "jetpack",
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/Automattic/jetpack-autoloader/tree/v3.1.0"
+            },
+            "install-path": "../automattic/jetpack-autoloader"
+        },
+        {
+            "name": "dilab/omnipay-midtrans",
+            "version": "2.0.1",
+            "version_normalized": "2.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dilab/omnipay-midtrans.git",
+                "reference": "728f1e998ec4901dadb4be22b7e2099e2267626a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dilab/omnipay-midtrans/zipball/728f1e998ec4901dadb4be22b7e2099e2267626a",
+                "reference": "728f1e998ec4901dadb4be22b7e2099e2267626a",
+                "shasum": ""
+            },
+            "require": {
+                "omnipay/common": "3.0-beta.1",
+                "php-http/guzzle6-adapter": "^1.1"
+            },
+            "require-dev": {
+                "omnipay/tests": "3.0-beta.1"
+            },
+            "time": "2018-05-25T01:26:55+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Omnipay\\Midtrans\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "xu ding",
+                    "email": "thedilab@gmail.com"
+                }
+            ],
+            "description": "Midtrans gateway for Omnipay payment processing library",
+            "keywords": [
+                "gateway",
+                "merchant",
+                "midtrans",
+                "omnipay"
+            ],
+            "support": {
+                "issues": "https://github.com/dilab/omnipay-midtrans/issues",
+                "source": "https://github.com/dilab/omnipay-midtrans/tree/master"
+            },
+            "install-path": "../dilab/omnipay-midtrans"
+        },
+        {
+            "name": "dpo/dpo-pay-common",
+            "version": "v1.0.2",
+            "version_normalized": "1.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DPO-Group/DPO-Pay-Common.git",
+                "reference": "a3dd3cb03fa49e98767e2c91d8353ebfd12b3b93"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DPO-Group/DPO-Pay-Common/zipball/a3dd3cb03fa49e98767e2c91d8353ebfd12b3b93",
+                "reference": "a3dd3cb03fa49e98767e2c91d8353ebfd12b3b93",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0"
+            },
+            "time": "2024-05-28T13:52:13+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Dpo\\Common\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "App Inlet (Pty) Ltd",
+                    "email": "info@appinlet.com"
+                }
+            ],
+            "description": "DPO Pay common class for modules.",
+            "homepage": "https://github.com/DPO-Group/DPO-Pay-Common",
+            "support": {
+                "issues": "https://github.com/DPO-Group/DPO-Pay-Common/issues",
+                "source": "https://github.com/DPO-Group/DPO-Pay-Common/tree/v1.0.2"
+            },
+            "install-path": "../dpo/dpo-pay-common"
+        },
+        {
+            "name": "edu27/omnipay-redsys",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/edu27/omnipay-redsys",
+                "reference": "9eeeb3af9976e029e67818c55fa26b9ca480dc6f"
+            },
+            "require": {
+                "omnipay/common": "^3.0"
+            },
+            "require-dev": {
+                "omnipay/tests": "^3.0",
+                "squizlabs/php_codesniffer": "^3.5"
+            },
+            "suggest": {
+                "ext-openssl": "Required for hashing functions to check message signatures"
+            },
+            "time": "2024-05-07T16:58:59+00:00",
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2.x-dev"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Omnipay\\Redsys\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Omnipay\\Redsys\\": "tests/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Leith Caldwell",
+                    "email": "leith@codedruids.com"
+                },
+                {
+                    "name": "Dan Eastmond",
+                    "email": "dan@firesoft.tech"
+                }
+            ],
+            "description": "Redsys driver for the Omnipay payment processing library",
+            "homepage": "https://github.com/PatronBase/omnipay-redsys",
+            "keywords": [
+                "gateway",
+                "merchant",
+                "omnipay",
+                "pay",
+                "payment",
+                "redirect",
+                "redsys",
+                "sermepa",
+                "servired",
+                "soap",
+                "web service",
+                "webservice"
+            ],
+            "install-path": "../edu27/omnipay-redsys"
+        },
+        {
+            "name": "gauravjain028/omnipay-ameria",
+            "version": "v1.0.2",
+            "version_normalized": "1.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gauravjain028/omnipay-ameria.git",
+                "reference": "65fd15c4a77549603904fe878a6cd31f9ec16e1f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gauravjain028/omnipay-ameria/zipball/65fd15c4a77549603904fe878a6cd31f9ec16e1f",
+                "reference": "65fd15c4a77549603904fe878a6cd31f9ec16e1f",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "omnipay/common": "^3",
+                "php": "8.*"
+            },
+            "require-dev": {
+                "omnipay/tests": "^3"
+            },
+            "time": "2022-02-08T11:37:09+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Omnipay\\Ameria\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gaurav Jain",
+                    "email": "gaurav.jain028@gmail.com"
+                }
+            ],
+            "description": "Ameria gateway for Omnipay payment processing library",
+            "homepage": "https://github.com/gauravjain028/omnipay-ameria",
+            "keywords": [
+                "Ameria",
+                "arca",
+                "gateway",
+                "merchant",
+                "omnipay",
+                "pay",
+                "payment",
+                "purchase"
+            ],
+            "support": {
+                "issues": "https://github.com/gauravjain028/omnipay-ameria/issues",
+                "source": "https://github.com/gauravjain028/omnipay-ameria/tree/v1.0.2"
+            },
+            "install-path": "../gauravjain028/omnipay-ameria"
+        },
+        {
+            "name": "lennon-mudenda/omnipay-dpo",
+            "version": "v1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lennon-mudenda/omnipay-dpo.git",
+                "reference": "f632bdede3e20a937a174eb85e0974ca3a992f4c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lennon-mudenda/omnipay-dpo/zipball/f632bdede3e20a937a174eb85e0974ca3a992f4c",
+                "reference": "f632bdede3e20a937a174eb85e0974ca3a992f4c",
+                "shasum": ""
+            },
+            "require": {
+                "dpo/dpo-pay-common": "^1.0",
+                "ext-simplexml": "*",
+                "nyholm/psr7": "^1.8",
+                "omnipay/common": "^3",
+                "php": "^8.0",
+                "php-http/httplug": "^2.4",
+                "symfony/http-client": "^6.0",
+                "vlucas/phpdotenv": "^5.6"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^1.11",
+                "phpunit/phpunit": "^9.0"
+            },
+            "time": "2024-07-09T04:48:40+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Omnipay\\DPO\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lennon Mudenda",
+                    "email": "lensig13@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "DPO Payments driver for the Omnipay PHP payment processing library",
+            "homepage": "https://github.com/lennon-mudenda/omnipay-dpo",
+            "keywords": [
+                "lennon-mudenda",
+                "omnipay-dpo"
+            ],
+            "support": {
+                "issues": "https://github.com/lennon-mudenda/omnipay-dpo/issues",
+                "source": "https://github.com/lennon-mudenda/omnipay-dpo/tree/v1.0.0"
+            },
+            "install-path": "../lennon-mudenda/omnipay-dpo"
+        },
+        {
+            "name": "omnipay/eway",
+            "version": "v3.0.2",
+            "version_normalized": "3.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/omnipay-eway.git",
+                "reference": "8dfae5e6f438a1b18742348104f9f5d6a2486760"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/omnipay-eway/zipball/8dfae5e6f438a1b18742348104f9f5d6a2486760",
+                "reference": "8dfae5e6f438a1b18742348104f9f5d6a2486760",
+                "shasum": ""
+            },
+            "require": {
+                "omnipay/common": "^3"
+            },
+            "require-dev": {
+                "omnipay/tests": "^3",
+                "phpro/grumphp": "^0.14.0",
+                "squizlabs/php_codesniffer": "^3"
+            },
+            "time": "2019-02-06T08:16:41+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Omnipay\\Eway\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Adrian Macneil",
+                    "email": "adrian@adrianmacneil.com"
+                },
+                {
+                    "name": "Omnipay Contributors",
+                    "homepage": "https://github.com/thephpleague/omnipay-eway/contributors"
+                }
+            ],
+            "description": "eWay driver for the Omnipay payment processing library",
+            "homepage": "https://github.com/thephpleague/omnipay-eway",
+            "keywords": [
+                "eway",
+                "gateway",
+                "merchant",
+                "omnipay",
+                "pay",
+                "payment"
+            ],
+            "support": {
+                "issues": "https://github.com/thephpleague/omnipay-eway/issues",
+                "source": "https://github.com/thephpleague/omnipay-eway/tree/master"
+            },
+            "install-path": "../omnipay/eway"
+        },
+        {
+            "name": "omnipay/payfast",
+            "version": "v3.1.0",
+            "version_normalized": "3.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/omnipay-payfast.git",
+                "reference": "64fc450cbca608cbb3f6e9f99be39fa05600dc23"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/omnipay-payfast/zipball/64fc450cbca608cbb3f6e9f99be39fa05600dc23",
+                "reference": "64fc450cbca608cbb3f6e9f99be39fa05600dc23",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.3|^7.0",
+                "league/omnipay": "^3",
+                "omnipay/common": "^3.0"
+            },
+            "require-dev": {
+                "omnipay/tests": "^3.1",
+                "squizlabs/php_codesniffer": "^3"
+            },
+            "time": "2021-01-08T07:33:09+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Omnipay\\PayFast\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Adrian Macneil",
+                    "email": "adrian@adrianmacneil.com"
+                },
+                {
+                    "name": "Omnipay Contributors",
+                    "homepage": "https://github.com/thephpleague/omnipay-payfast/contributors"
+                }
+            ],
+            "description": "PayFast driver for the Omnipay payment processing library",
+            "homepage": "https://github.com/thephpleague/omnipay-payfast",
+            "keywords": [
+                "gateway",
+                "merchant",
+                "omnipay",
+                "pay",
+                "payfast",
+                "payment"
+            ],
+            "support": {
+                "issues": "https://github.com/thephpleague/omnipay-payfast/issues",
+                "source": "https://github.com/thephpleague/omnipay-payfast/tree/v3.1.0"
+            },
+            "install-path": "../omnipay/payfast"
+        },
+        {
+            "name": "patronbase/omnipay-cybersource-hosted",
+            "version": "v3.1.0",
+            "version_normalized": "3.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PatronBase/omnipay-cybersource-hosted.git",
+                "reference": "829840787aa3a4e3a126d8505c08fd9e47862022"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PatronBase/omnipay-cybersource-hosted/zipball/829840787aa3a4e3a126d8505c08fd9e47862022",
+                "reference": "829840787aa3a4e3a126d8505c08fd9e47862022",
+                "shasum": ""
+            },
+            "require": {
+                "omnipay/common": "~3.0"
+            },
+            "require-dev": {
+                "omnipay/tests": "~3.0",
+                "squizlabs/php_codesniffer": "^3.5"
+            },
+            "time": "2024-07-15T11:52:08+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Omnipay\\CyberSource\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Leith Caldwell",
+                    "email": "leith@codedruids.com"
+                }
+            ],
+            "description": "CyberSource Secure Acceptance Hosted Checkout driver for the Omnipay payment processing library",
+            "homepage": "https://github.com/PatronBase/omnipay-cybersource-hosted",
+            "keywords": [
+                "acceptance",
+                "checkout",
+                "cybersource",
+                "gateway",
+                "hosted",
+                "merchant",
+                "mobile",
+                "omnipay",
+                "pay",
+                "payment",
+                "redirect",
+                "secure",
+                "web"
+            ],
+            "support": {
+                "issues": "https://github.com/PatronBase/omnipay-cybersource-hosted/issues",
+                "source": "https://github.com/PatronBase/omnipay-cybersource-hosted/tree/v3.1.0"
+            },
+            "install-path": "../patronbase/omnipay-cybersource-hosted"
+        },
+        {
+            "name": "paystackhq/omnipay-paystack",
+            "version": "v1.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PaystackHQ/omnipay-paystack.git",
+                "reference": "31740ac6e874cd97aab29cae22bb89b639889038"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PaystackHQ/omnipay-paystack/zipball/31740ac6e874cd97aab29cae22bb89b639889038",
+                "reference": "31740ac6e874cd97aab29cae22bb89b639889038",
+                "shasum": ""
+            },
+            "require": {
+                "omnipay/common": "^3.0",
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "omnipay/tests": "~3.0",
+                "phpro/grumphp": "^0.14",
+                "squizlabs/php_codesniffer": "^3"
+            },
+            "time": "2020-06-17T09:55:53+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Omnipay\\Paystack\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paystack Integrations",
+                    "email": "support@paystack.com",
+                    "homepage": "https://www.paystack.com"
+                }
+            ],
+            "description": "The Paystack gateway for Omnipay",
+            "homepage": "https://github.com/paystackhq/omnipay-paystack",
+            "keywords": [
+                "omnipay",
+                "paystack"
+            ],
+            "support": {
+                "issues": "https://github.com/PaystackHQ/omnipay-paystack/issues",
+                "source": "https://github.com/PaystackHQ/omnipay-paystack/tree/master"
+            },
+            "install-path": "../paystackhq/omnipay-paystack"
+        },
+        {
+            "name": "sitehandy/omnipay-toyyibpay",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sitehandy/omnipay-toyyibpay.git",
+                "reference": "06213e435bc14c6b8b35ed95e6757d999d1b190e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sitehandy/omnipay-toyyibpay/zipball/06213e435bc14c6b8b35ed95e6757d999d1b190e",
+                "reference": "06213e435bc14c6b8b35ed95e6757d999d1b190e",
+                "shasum": ""
+            },
+            "require": {
+                "omnipay/common": "^3"
+            },
+            "require-dev": {
+                "omnipay/tests": "^3"
+            },
+            "time": "2020-03-04T15:13:46+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Omnipay\\ToyyibPay\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Amirol Zolkifli",
+                    "email": "amirol@sitehandy.com"
+                }
+            ],
+            "description": "toyyibPay driver for the Omnipay payment processing library",
+            "homepage": "https://github.com/sitehandy/omnipay-toyyibpay",
+            "keywords": [
+                "gateway",
+                "merchant",
+                "omnipay",
+                "pay",
+                "payment",
+                "toyyibpay"
+            ],
+            "support": {
+                "issues": "https://github.com/sitehandy/omnipay-toyyibpay/issues",
+                "source": "https://github.com/sitehandy/omnipay-toyyibpay/tree/master"
+            },
+            "install-path": "../sitehandy/omnipay-toyyibpay"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
